@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <mydev_knet>
+                <active>1</active>
+                <model>MyDev\Knet\Model\Payment\Payment</model>
+                <title>Knet Payment</title>
+                <order_status>pending_payment</order_status>
+                <payment_action>authorize_capture</payment_action>
+            </mydev_knet>
+        </payment>
+    </default>
+</config>
